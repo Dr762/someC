@@ -3,12 +3,9 @@
 //
 
 #include <stdio.h>
-
+#include "longLine.h"
 #define MAXLINE 1000
 
-int getLineLength(char *s, int lim);
-
-void copy(char to[], char from[]);
 
 int main() {
     int len = 0;

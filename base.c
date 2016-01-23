@@ -3,16 +3,12 @@
 //
 
 #include <stdio.h>
+#include "base.h"
 
 #define LOWER 0
 #define UPPER 300
 #define STEP 20
 
-#define IN 1 //inside a word
-#define OUT 0 //outside a word
-
-void farCel();
-void bigInputCounter();
 
 int main() {
 
@@ -20,7 +16,17 @@ int main() {
 
 
     farCel();
-    bigInputCounter();
+    int a = bitCount(6);
+    printf("Number of 1-bits in 6 is: %2d\n", a);
+
+    int arr1[10];
+    int n=0;
+
+    for (int i = 0; i < 10; i++) {
+        arr1[i] = n;
+        n++;
+    }
+
 
     return 0;
 }
@@ -38,49 +44,13 @@ void farCel() {
 
 }
 
-
-void bigInputCounter() {
-
-    int c, nw, nc, nl, state,i,nwhite;
-
-    int ndigit[10];
-
-    nwhite  = nc = nw = 0;
-    state = OUT;
-    nl=1;
-    for (i=0;i<10;i++){
-    ndigit[i] =0;
-    }
-
-    while ((c = getchar()) != EOF) {
-        nc++;
-        if (c == '\n') {
-            nl++;
+int bitCount(unsigned x) {
+    int b;
+    for (b = 0; x != 0; x >>= 1) {
+        if (x & 01) {
+            b++;
         }
-        if (c>='0' && c<='9'){
-            ndigit[c-'0']++;
-        }
-
-        if (c == ' ' || c == '\n' || c == '\t') {
-            state = OUT;
-            nwhite ++;
-
-        } else if (state == OUT) {
-            state = IN;
-            nw++;
-
-        }
-
     }
-   //quite wierd that in console it shows after ctrl-d but in cLion not
-    //digits - shows the number of occurence of each digit
-    printf("digits =");
-    for ( i = 0; i <10 ; ++i) {
-        printf(" %d",ndigit[i]);
+    return b;
+};
 
-    }
-
-    printf(",white space = %d\n",nwhite);
-    printf("Number of lines %d Number of words %d Number of chars %d\n",nl,nw,nc);
-
-}
