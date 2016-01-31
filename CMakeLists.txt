@@ -3,5 +3,5 @@ project(someC)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} Wall -Werror")
 
-set(SOURCE_FILES base.c base.h )
+set(SOURCE_FILES lineSort.c lineSort.h)
 add_executable(base.out ${SOURCE_FILES})
