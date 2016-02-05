@@ -3,5 +3,5 @@ project(someC)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} Wall -Werror")
 
-set(SOURCE_FILES  keywords.c)
+set(SOURCE_FILES  base_staff/concat_files.c)
 add_executable(base.out ${SOURCE_FILES})
