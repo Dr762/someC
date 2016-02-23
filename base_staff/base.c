@@ -49,6 +49,15 @@ int main(int argc, char *argv[]) {
 
     echo(argc, argv);
 
+    for (int i=0;i< 10;i++){
+        printf("Factorial of %d is %2d\n",i,fact(i));
+
+    }
+
+    for (int i=11;i< 20;i++){
+        printf("Factorial of %d is %2d\n",i,factTail(i,1));
+
+    }
 
     return 0;
 }
@@ -170,4 +179,29 @@ void echo(int argc, char *argv[]) {
     printf("\n");
 
 
+}
+
+int fact(int n){
+    if (n<0){
+        return 0;
+    } else if(n==0){
+        return 1;
+    } else if(n==1){
+        return 1;
+    } else {
+        return n*fact(n-1);
+    }
+
+}
+
+int factTail(int n,int a){
+    if (n<0){
+        return 0;
+    } else if(n==0){
+        return 1;
+    } else if(n==1){
+        return a;
+    } else {
+        return factTail(n-1,n*a);
+    }
 }

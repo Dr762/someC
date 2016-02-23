@@ -21,4 +21,8 @@ char *month_name(int n);
 
 void echo(int argc, char *argv[]);
 
+int fact(int n);
+
+int factTail(int n,int a);
+
 #endif //SOMEC_BASE_H
