@@ -25,6 +25,8 @@ typedef struct List_{
 
 void list_init(List *list,void (*destroy)(void *data));
 void list_destroy(List *list);
+// elem- after which to insert
+//NULL as elem to avoid confusion
 int  list_ins_next(List *list,ListElem *elem, const void *data);
 int  list_rem_next(List *list,ListElem *elem,  void **data);
 

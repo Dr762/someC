@@ -30,7 +30,7 @@ void list_destroy(List *list){
     return;
 };
 
-// elem- after which to insert
+
 int list_ins_next(List *list, ListElem *elem, const void *data){
     ListElem *new_elem;
 
