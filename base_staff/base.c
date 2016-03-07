@@ -20,25 +20,6 @@ int main(int argc, char *argv[]) {
     int a = bitCount(6);
     printf("Number of 1-bits in 6 is: %2d\n", a);
 
-    int arr1[10];
-    int n = 10;
-
-    printf("Unsorted array ");
-    for (int i = 0; i < 10; i++) {
-        arr1[i] = n;
-        n--;
-        printf("%2d", arr1[i]);
-    }
-    printf("\n");
-
-    shellSort(arr1, 10);
-    n = 10;
-    for (int i = 0; i < 10; i++) {
-        arr1[i] = n;
-        n--;
-    }
-
-    qSort(arr1, 0, 9);
 
     int day_of_year = dayOfYear(2016, 02, 01);
     printf("Febraury 1 is %2d day of year\n", day_of_year);
@@ -86,63 +67,8 @@ int bitCount(unsigned x) {
 
 }
 
-void shellSort(int v[], int n) {
-    int gap, i, j;
-
-    for (gap = n / 2; gap > 0; gap /= 2) {
-        for (i = gap; i < n; i++) {
-            for (j = i - gap; j >= 0 && v[j] > v[j + gap]; j -= gap) {
-                swap(v, j, j + gap);
-
-            }
-        }
-    }
-    printf("Shell sorted array ");
-    for (i = 0; i < 10; i++) {
-        printf("%3d", v[i]);
-    }
-    printf("\n");
-
-}
-
-void qSort(int v[], int left, int right) {
-    int i, last;
 
 
-    if (left >= right) { //do nothing if arrays has<2 elems
-        return;
-    }
-
-    int subdiv = (left + right) / 2;
-    swap(v, left, subdiv);
-    last = left;// move partition to v[0]
-
-    for (i = left + 1; i <= right; i++) { //partition
-        if (v[i] < v[left]) {
-
-            swap(v, ++last, i);
-        }
-    }
-    swap(v, left, last); //restore partition
-    qSort(v, left, last - 1);
-    qSort(v, last + 1, right);
-
-
-    printf("Q sorted array ");
-    for (i = 0; i < 10; i++) {
-        printf("%3d", v[i]);
-    }
-    printf("\n");
-
-}
-
-void swap(int v[], int i, int j) {
-    int temp;
-    temp = v[i];
-    v[i] = v[j];
-    v[j] = temp;
-
-}
 
 //set day of year from month and da
 int dayOfYear(int year, int month, int day) {
