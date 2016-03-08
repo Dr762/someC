@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 2.8.4)
 project(someC)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} Wall -Werror ")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} Wall -Werror -lm ")
 
-set(SOURCE_FILES base_staff/bit_ops.c  base_staff/bit_ops.h)
+set(SOURCE_FILES encryption/encrypt.h encryption/encryption_demo.c encryption/bit_ops.c encryption/bit_ops.h
+        encryption/encrypt.c)
 add_executable(base_staff  ${SOURCE_FILES})
