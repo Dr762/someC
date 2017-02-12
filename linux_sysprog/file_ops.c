@@ -11,7 +11,7 @@
 #include <asm/errno.h>
 #include "file_ops.h"
 
-int main(int argc, char *argv[]) {
+int main(void) {
 
     openFile("/home/abondar/IdeaProjects/SomeC/LICENSE");
     createFile("salo.txt");
