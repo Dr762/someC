@@ -19,7 +19,7 @@ Examples using Linux System Functions.
 15. R limits (rlimits) - Check R limits.
 16. RR Interval (rr_interval) - Get a time quantum 
 17. RR Priority (rr_priority) - Schedule a priority range.
-
+18. Select (select) - Read a file using blocking.
 ## Build and run
 ```
 cd <demo-dir>
@@ -29,5 +29,6 @@ make
 
 ## Notes
 - Demo directory names are in ()
-- Poll can be run in format ```./pd < some-file```
+- Poll can be run in format ```./pd < some-file```. Without file stdin will be checked.
 - ReadV must be run after WriteV
+- Select can be run in format ```./sel < some-file```. Without 5 second block will be made.
