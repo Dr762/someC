@@ -11,7 +11,8 @@ Basics of C programming language.
    4. Day of Year (dy year month day) - Calculate number of day in year.
    5. Month (mn month-number) - Convert month number to name.
    6. Factorial (fac) - Calc factorials of numbers in range.
-   
+
+2. Bit Operations (bit_ops) - several bit operations with strings. Operations: get bits,set bits,xor bits and rotate left.  
 
 ## Build and run
 ```
