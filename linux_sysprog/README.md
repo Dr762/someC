@@ -29,6 +29,7 @@ Examples using Linux System Functions.
 25. Sort Inode (sort_inode) - Get Inode of the file.
 26. Stats (stat) - Print malloc stats.
 27. Stream (stream) - Write stream to file.
+28. Time (time) - Get system time.
 
 ## Build and run
 ```

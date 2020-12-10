@@ -7,7 +7,7 @@
 
 #endif //SOMEC_TIME_DEMO_H
 
-void time_resoulutions(void);
+void time_resolutions(void);
 
 void get_cur_time(void);
 

@@ -29,7 +29,7 @@ int main(void) {
     return 0;
 }
 
-void time_resoulutions(void) {
+void time_resolutions(void) {
     clockid_t clocks[] = {
             CLOCK_REALTIME,
             CLOCK_MONOTONIC,
