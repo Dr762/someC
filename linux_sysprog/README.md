@@ -26,6 +26,7 @@ Examples using Linux System Functions.
 22. Signal payload (signal_payload) - Send a signal with payload.
 23. Small Daemon (daemon) - A tiny daemon.
 24. Sort Block (sort_block) - Get number of blocks consumed by file and print tuple (logical block-physical block).
+25. Sort Inode (sort_inode) - Get Inode of the file.
 
 
 ## Build and run
