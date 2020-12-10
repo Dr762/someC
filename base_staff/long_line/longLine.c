@@ -21,7 +21,7 @@ int main() {
     }
 
     if (max > 0) {
-        printf("The longest line %s", longest);
+        printf("The longest line: %s", longest);
     }
 
     return 0;
