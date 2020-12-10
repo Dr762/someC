@@ -17,7 +17,7 @@ Examples using Linux System Functions.
 13. WriteV (writev) - Create a file and write bytes to it.
 14. ReadV (readv) - Read file create by WriteV.
 15. R limits (rlimits) - Check R limits.
-
+16. RR Interval (rr_interval) - Get a time quantum 
 ## Build and run
 ```
 cd <demo-dir>
