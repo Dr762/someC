@@ -13,6 +13,7 @@ Examples using Linux System Functions.
 9. Map (map) - Open file and print contents.
 10. Multi signal handler (multi_signal) - Handler for various system signals
 11. Poll (poll) - Check if stdin and stdout are readable.
+12. Print Chars (print_chars) - Print chars from hardcoded string.
 
 ## Build and run
 ```
