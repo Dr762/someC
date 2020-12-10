@@ -7,6 +7,8 @@ Examples using Linux System Functions.
 3. CPU Affinity (affinity) - Show the number of used CPUs.
 4. File Operations (file_ops) - Several file operations like open,create,read,sync,truncate,seek.
 5. File Statistics (file_stat) - Print statistics of input file.
+6. Find File (find_file) - Find a file in a filesystem.
+
 
 ## Build and run
 ```

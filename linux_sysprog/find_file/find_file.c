@@ -5,7 +5,7 @@
 #include <dirent.h>
 #include <stdio.h>
 #include <errno.h>
-#include "find_file_in_dir.h"
+#include "find_file.h"
 
 #define BUF_SIZE 8192
 
