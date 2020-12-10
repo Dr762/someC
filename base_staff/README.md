@@ -25,6 +25,7 @@ Basics of C programming language.
 4. Input counter (input_counter) - Print some lines in console and get some calculations about the input.
 5. Keywords (keywords) - Count how many special words are in input lines.
 6. Line Sort (line_sort) - Input several lines and sort them.
+7. Long line (long_line) - Print the longest line from input.
 
 ## Build and run
 ```
@@ -37,4 +38,4 @@ make
 - Demo directory names are in ()
 - Arguments for demos will be listed if needed.
 - Input Counter and Keywords print count results after closing input via CTRL-D.
-- Line Sort prints results after closing input via CTRL-D.
+- Line Sort and Long Line print results after closing input via CTRL-D.
