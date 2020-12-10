@@ -21,6 +21,7 @@ Examples using Linux System Functions.
 17. RR Priority (rr_priority) - Schedule a priority range.
 18. Select (select) - Read a file using blocking.
 19. Send Signal (sighup) - Send kill a signal.
+20. Set highest priority (priority) - Set priority via scheduler.
 
 
 ## Build and run
