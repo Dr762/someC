@@ -24,7 +24,7 @@ Examples using Linux System Functions.
 20. Set highest priority (priority) - Set priority via scheduler.
 21. Sigint handler (sigint) - Handle SIGINT.
 22. Signal payload (signal_payload) - Send a signal with payload.
-
+23. Small Daemon (daemon) - A tiny daemon.
 
 ## Build and run
 ```
