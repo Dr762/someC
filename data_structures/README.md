@@ -4,6 +4,7 @@ Core data structures implemented in C.
 
 1. Linked List (linked_list)
 2. Double Linked List (double_linked_list) 
+3. Circular List (circular_list)
 
 ## Build and run
 ```
