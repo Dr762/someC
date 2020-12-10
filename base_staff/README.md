@@ -14,7 +14,7 @@ Basics of C programming language.
 
 2. Bit Operations (bit_ops) - Several bit operations with strings.
    
-   Below goes the list of sub-demos with arguments in ().
+   Below goes the list of bit-operations with arguments in ().
    1. Get bit (bg) - Get bit value of position at string.
    2. Set bit (bs) - Set bit at position at string.
    3. Bit XOR (bx) - XOR two strings.
@@ -26,6 +26,13 @@ Basics of C programming language.
 5. Keywords (keywords) - Count how many special words are in input lines.
 6. Line Sort (line_sort) - Input several lines and sort them.
 7. Long line (long_line) - Print the longest line from input.
+8. Sort (sort) - Several sort algorithms implemented in C.
+
+   Below goes the list of sorts with arguments in ().
+   1. Shell Sort (ss)
+   2. Q Sort (qs)
+   3. Count Sort (cs)
+   
 
 ## Build and run
 ```

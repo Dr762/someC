@@ -10,7 +10,7 @@ void shellSort(int v[], int n);
 void qSort(int v[], int left, int right);
 void swap(int v[], int i, int j);
 
-int csort(int *data,int size,int k);
+int countSort(int *data, int size, int k);
 
 
 //n - first elem to fill

@@ -11,21 +11,24 @@
 #include "sort.h"
 
 
-int main(){
-
+int main(int argc,char *argv[]){
 
     int arr1[10];
 
+    if (strcmp(argv[1],"ss")==0){
+        refillArray(arr1,10);
+        shellSort(arr1, 10);
+    }
 
+    if (strcmp(argv[1],"qs")==0){
+        refillArray(arr1,10);
+        qSort(arr1, 0, 9);
+    }
 
-    refillArray(arr1,10);
-    shellSort(arr1, 10);
-
-    refillArray(arr1,20);
-    qSort(arr1, 0, 9);
-
-    refillArray(arr1,30);
-    csort(arr1,10,31);
+    if (strcmp(argv[1],"cs")==0){
+        refillArray(arr1,10);
+        countSort(arr1,10,11);
+    }
 
     return 0;
 }
@@ -102,7 +105,7 @@ void refillArray(int v[],int n){
 }
 
 //k=maxint +1
-int csort(int *data,int size,int k){
+int countSort(int *data, int size, int k){
     int *counts,*temp;
     int i,j;
 
