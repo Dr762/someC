@@ -12,8 +12,9 @@ Basics of C programming language.
    5. Month (mn month-number) - Convert month number to name.
    6. Factorial (fac) - Calc factorials of numbers in range.
 
-2. Bit Operations (bit_ops) - several bit operations with strings. Operations: get bits,set bits,xor bits and rotate left.  
-
+2. Bit Operations (bit_ops) - Several bit operations with strings. Operations: get bits,set bits,xor bits and rotate left.  
+3. Concat Files (concat_files)  - Input several files,read them ,concat their contents and print it.
+   Arguments: list of files. If no files provided input will be open for entering a message.
 ## Build and run
 ```
 cd <demo-dir>
