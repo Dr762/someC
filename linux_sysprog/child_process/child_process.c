@@ -7,7 +7,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 
-/*fork a child and exit*/
+
 int main(void) {
 
     int status;
