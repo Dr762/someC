@@ -1,9 +1,9 @@
   CC=gcc
  CFLAGS=-c
  LDFLAGS= -Wall
- SOURCES=inputCounter.c
+ SOURCES=lineSort.c
  OBJECTS=$(SOURCES:.c=.o)
- EXECUTABLE=inputCounter
+ EXECUTABLE=lineSort
  
  all: $(SOURCES) $(EXECUTABLE)
  

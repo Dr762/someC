@@ -17,6 +17,7 @@ Basics of C programming language.
    Arguments: list of files. If no files provided input will be open for entering a message.
 4. Input counter (input_counter) - Print some lines in console and get some calculations about the input.
 5. Keywords (keywords) - Count how many special words are in input lines.
+6. Line Sort (line_sort) - Input several lines and sort them.
 
 ## Build and run
 ```
@@ -29,3 +30,4 @@ make
 - Demo directory names are in ()
 - Arguments for demos will be listed if needed.
 - Input Counter and Keywords print count results after closing input via CTRL-D.
+- Line Sort prints results after closing input via CTRL-D.
