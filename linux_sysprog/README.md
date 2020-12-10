@@ -18,6 +18,8 @@ Examples using Linux System Functions.
 14. ReadV (readv) - Read file create by WriteV.
 15. R limits (rlimits) - Check R limits.
 16. RR Interval (rr_interval) - Get a time quantum 
+17. RR Priority (rr_priority) - Schedule a priority range.
+
 ## Build and run
 ```
 cd <demo-dir>
