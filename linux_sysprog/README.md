@@ -12,6 +12,8 @@ Examples using Linux System Functions.
 8. Get Directory (get_dir) - Show path to the current directory.
 9. Map (map) - Open file and print contents.
 10. Multi signal handler (multi_signal) - Handler for various system signals
+11. Poll (poll) - Check if stdin and stdout are readable.
+
 ## Build and run
 ```
 cd <demo-dir>
@@ -21,3 +23,4 @@ make
 
 ## Notes
 - Demo directory names are in ()
+- Poll can be run in format ```./pd < some-file```
