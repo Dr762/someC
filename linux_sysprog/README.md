@@ -22,7 +22,7 @@ Examples using Linux System Functions.
 18. Select (select) - Read a file using blocking.
 19. Send Signal (sighup) - Send kill a signal.
 20. Set highest priority (priority) - Set priority via scheduler.
-
+21. Sigint handler - Handle SIGINT.
 
 ## Build and run
 ```
