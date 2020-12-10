@@ -11,7 +11,7 @@ Examples using Linux System Functions.
 7. Get Allocated Size (get_alloc_size) - Allocate memory and get size of it.
 8. Get Directory (get_dir) - Show path to the current directory.
 9. Map (map) - Open file and print contents.
-
+10. Multi signal handler (multi_signal) - Handler for various system signals
 ## Build and run
 ```
 cd <demo-dir>
