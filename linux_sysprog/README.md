@@ -28,6 +28,7 @@ Examples using Linux System Functions.
 24. Sort Block (sort_block) - Get number of blocks consumed by file and print tuple (logical block-physical block).
 25. Sort Inode (sort_inode) - Get Inode of the file.
 26. Stats (stat) - Print malloc stats.
+27. Stream (stream) - Write stream to file.
 
 ## Build and run
 ```
