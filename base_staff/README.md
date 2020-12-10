@@ -15,6 +15,9 @@ Basics of C programming language.
 2. Bit Operations (bit_ops) - Several bit operations with strings. Operations: get bits,set bits,xor bits and rotate left.  
 3. Concat Files (concat_files)  - Input several files,read them ,concat their contents and print it.
    Arguments: list of files. If no files provided input will be open for entering a message.
+4. Input counter (input_counter) - Print some lines in console and get some calculations about the input.
+
+
 ## Build and run
 ```
 cd <demo-dir>
