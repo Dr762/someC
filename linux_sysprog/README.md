@@ -20,6 +20,9 @@ Examples using Linux System Functions.
 16. RR Interval (rr_interval) - Get a time quantum 
 17. RR Priority (rr_priority) - Schedule a priority range.
 18. Select (select) - Read a file using blocking.
+19. Send Signal (sighup) - Send kill a signal.
+
+
 ## Build and run
 ```
 cd <demo-dir>
