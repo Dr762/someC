@@ -3,10 +3,10 @@
 //
 
 #include "chtbl.h"
- #include "list.h"
- #include <stdlib.h>
- #include <string.h>
- #include <stdio.h>
+#include "list.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
  
  
  int chtbl_init(CHTbl *htbl, int buckets, int (*h)(const void *key),
