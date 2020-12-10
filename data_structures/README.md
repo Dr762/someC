@@ -8,6 +8,7 @@ Core data structures implemented in C.
 4. Chained Hashtable (chained_hashtable)
 5. Set (set)
 6. Stack (stack)
+6. Queue (queue)
 
 ## Build and run
 ```
