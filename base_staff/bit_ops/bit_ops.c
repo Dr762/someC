@@ -3,12 +3,12 @@
 //
 
 #include <stdio.h>
-
+#include <string.h>
 
 #include "bit_ops.h"
 
 
-int main(){
+int main(int argc, char *argv[]){
 
     unsigned char *bits1;
     unsigned char *bits2;
@@ -21,22 +21,27 @@ int main(){
     unsigned char b='aegh';
     bits2 =&b;
 
+    int bit4=0;
+    if (strcmp(argv[1],"bg")==0){
+        bit4=bit_get(bits1, 4);
+        printf("Bit val at position 4 of string 'abcde' %2d\n",bit4);
+    }
 
-    int bit4=bit_get(bits1, 4);
-    printf("Bit val at position 4 of string 'abcde' %2d\n",bit4);
+    if (strcmp(argv[1],"bs")==0){
+        bit_set(bits1, 4, 1);
+        bit4=bit_get(bits1, 4);
+        printf("New bit val at position 4 of string 'abcde' %2d\n",bit4);
+    }
 
+    if (strcmp(argv[1],"bx")==0){
+        bit_xor(bits1,bits2,bits3,64);
+        printf("XOR-ed %s\n",bits3);
+    }
 
-    bit_set(bits1, 4, 1);
-    bit4=bit_get(bits1, 4);
-    printf("New bit val at position 4 of string 'abcde' %2d\n",bit4);
-
-
-    bit_xor(bits1,bits2,bits3,64);
-
-    printf("XOR-ed %s\n",bits3);
-
-    bit_rot_left(bits2,16,8);
-    printf("Rotated %s\n",bits2);
+    if (strcmp(argv[1],"br")==0){
+        bit_rot_left(bits2,16,8);
+        printf("Rotated %s\n",bits2);
+    }
 
     return 0;
 }

@@ -12,7 +12,14 @@ Basics of C programming language.
    5. Month (mn month-number) - Convert month number to name.
    6. Factorial (fac) - Calc factorials of numbers in range.
 
-2. Bit Operations (bit_ops) - Several bit operations with strings. Operations: get bits,set bits,xor bits and rotate left.  
+2. Bit Operations (bit_ops) - Several bit operations with strings.
+   
+   Below goes the list of sub-demos with arguments in ().
+   1. Get bit (bg) - Get bit value of position at string.
+   2. Set bit (bs) - Set bit at position at string.
+   3. Bit XOR (bx) - XOR two strings.
+   4. Bit rotate (br) - Rotate bits in string to the left.
+   
 3. Concat Files (concat_files)  - Input several files,read them ,concat their contents and print it.
    Arguments: list of files. If no files provided input will be open for entering a message.
 4. Input counter (input_counter) - Print some lines in console and get some calculations about the input.
