@@ -13,12 +13,12 @@
 
 int main(void) {
 
-    openFile("/home/abondar/IdeaProjects/SomeC/LICENSE");
+    openFile("../../LICENSE");
     createFile("salo.txt");
-    readFile("/home/abondar/IdeaProjects/SomeC/LICENSE");
+    readFile("../../LICENSE");
     writeFile("salo.txt");
     fileSync("salo.txt");
-    fileSeek("/home/abondar/IdeaProjects/SomeC/LICENSE");
+    fileSeek("../../LICENSE");
     truncateFile("salo.txt",3);
 
     return 0;
