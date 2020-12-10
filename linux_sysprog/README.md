@@ -8,7 +8,7 @@ Examples using Linux System Functions.
 4. File Operations (file_ops) - Several file operations like open,create,read,sync,truncate,seek.
 5. File Statistics (file_stat) - Print statistics of input file.
 6. Find File (find_file) - Find a file in a filesystem.
-
+7. Get Allocated Size (get_alloc_size) - Allocate memory and get size of it.
 
 ## Build and run
 ```
