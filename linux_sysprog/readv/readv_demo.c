@@ -16,7 +16,7 @@ int main() {
     ssize_t nr;
     int fd, i;
 
-    fd = open("bcn.txt", O_RDONLY);
+    fd = open("../writev/bcn.txt", O_RDONLY);
     if (fd == -1) {
         perror("open");
         return 1;
