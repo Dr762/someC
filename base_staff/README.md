@@ -41,8 +41,7 @@ make
 ./demo-name <args>
 ```
 
-# Notes
+## Notes
 - Demo directory names are in ()
-- Arguments for demos will be listed if needed.
 - Input Counter and Keywords print count results after closing input via CTRL-D.
 - Line Sort and Long Line print results after closing input via CTRL-D.

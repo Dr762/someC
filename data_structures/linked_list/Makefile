@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-c
 LDFLAGS=
-SOURCES=list.c linked_list_demo.c
+SOURCES=list.c list_demo.c
 OBJECTS=$(SOURCES:.c=.o)
 EXECUTABLE=ll
 
