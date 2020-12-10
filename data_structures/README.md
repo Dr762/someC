@@ -6,7 +6,7 @@ Core data structures implemented in C.
 2. Double Linked List (double_linked_list) 
 3. Circular List (circular_list)
 4. Chained Hashtable (chained_hashtable)
-
+5. Set (set)
 
 ## Build and run
 ```
