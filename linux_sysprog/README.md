@@ -16,6 +16,7 @@ Examples using Linux System Functions.
 12. Print Chars (print_chars) - Print chars from hardcoded string.
 13. WriteV (writev) - Create a file and write bytes to it.
 14. ReadV (readv) - Read file create by WriteV.
+15. R limits (rlimits) - Check R limits.
 
 ## Build and run
 ```
