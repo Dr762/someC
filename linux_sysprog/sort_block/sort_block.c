@@ -57,7 +57,7 @@ int get_nr_blocks(int fd) {
 }
 
 
-/*print tuple: logical block-physycal block*/
+/*print tuple: logical block-physical block*/
 void print_blocks(int fd) {
     int nr_blocks, i;
 

@@ -25,6 +25,8 @@ Examples using Linux System Functions.
 21. Sigint handler (sigint) - Handle SIGINT.
 22. Signal payload (signal_payload) - Send a signal with payload.
 23. Small Daemon (daemon) - A tiny daemon.
+24. Sort Block (sort_block) - Get number of blocks consumed by file and print tuple (logical block-physical block).
+
 
 ## Build and run
 ```
